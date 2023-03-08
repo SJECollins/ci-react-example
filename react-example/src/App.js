@@ -1,11 +1,12 @@
-import logo from './logo.svg';
 import './App.css';
-import RenderingLists from './components/RenderingLists';
+import LifeCyclesCDM from './components/LifeCyclesCDM';
+// import RenderingLists from './components/RenderingLists';
 
 function App() {
   return (
     <div className="App">
-      <RenderingLists />
+      {/* <RenderingLists /> */}
+      <LifeCyclesCDM />
     </div>
   );
 }
